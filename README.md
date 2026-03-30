@@ -35,7 +35,7 @@ ORDER BY
     salary_year_avg DESC
 LIMIT 10;    
 ```
-![result](assets\query_1_result.jpg)
+![result](assets/query_1_result.jpg)
 
 * *The result of this query gives us data about Data Analyst jobs salaries,The salary range is between 180000-650000, Highest salary is 650000 and lowest is 185000 for top 10 high-paying jobs.* 
 ### **2.skills associated with top paying jobs?**
@@ -72,7 +72,7 @@ ORDER BY
     salary_year_avg DESC
 
 ```
-![result](assets\query_2_result.jpg)
+![result](assets/query_2_result.jpg)
 * *Here we can see there are 3 different job_id , and each job_d id has multiple skill requirements.This data shows us what are the skills requirement in top paying jobs and we can see that SQL and Python are most important skills for any job seeker to develop and get a high paying job. Other skills like tableau , pandas , numpy , excel are amoung some frequently demanded skills.* 
 
 ### **3.top demanded skill?**
@@ -91,7 +91,7 @@ ORDER BY total_jobs DESC
 LIMIT 5
 ```
 
-![result](assets\query_3_result.jpg)
+![result](assets/query_3_result.jpg)
 
 
 *  *This result directly tell us that SQL is required for about 9000+ jobs and Python , Excel , Tableau , Power BI are required for 3000-5000 jobs. That similar to the conclusion we made with last query but it's more accurate and factual.* 
@@ -114,7 +114,7 @@ ORDER BY
 LIMIT 5
 ```
 
-![result](assets\query_4_result.jpg)
+![result](assets/query_4_result.jpg)
 * *This result shows the top 5 skills based on the salary.Being the highest paid skill SVN has a average salary of 400000.* 
 
 ### **5.optimal skills**
@@ -156,7 +156,7 @@ INNER JOIN high_demand_skills ON high_paying_skills.skill_id=high_demand_skills.
 ORDER BY total_jobs DESC, avg_salary DESC
 LIMIT 25
 ```
-![result](assets\query_5_result.jpg)
+![result](assets/query_5_result.jpg)
 * *The results indicate that SQL is the most in-demand skill; however, its salary is not as high as that of other skills. Despite this, it remains the most sought-after skill.*
 # What I Learned
 - While working on this project, I learned how to use data creatively and draw meaningful insights from it.
